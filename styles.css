@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3498db; /* Fundo azul */
+    font-size: 16px; /* Tamanho da fonte padrão para telas maiores */
+    color: #fff; /* Cor do texto branca */
+}
+
+#app {
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+#infoClima, #erro {
+    margin-top: 20px;
+}
+
+.escondido {
+    display: none;
+}
+
+#mensagemCarregando {
+    font-style: italic;
+    color: #555;
+}
+
+
+#mensagemDesenvolvimento {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #3498db;
+}
+
+/* Media Query para ajustar estilos em telas menores que 600px */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}

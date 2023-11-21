@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Previsão do Tempo por João Luz</h1>
+        <input type="text" id="cidadeInput" placeholder="Informe a cidade">
+        <button onclick="obterPrevisao()">Buscar</button>
+        <p id="mensagemCarregando"></p>
+        <div id="infoClima" class="escondido">
+            <p id="nomeCidade"></p>
+            <p id="temperatura"></p>
+            <p id="descricao"></p>
+            <img id="iconeClima" alt="Condição do tempo">
+        </div>
+        <div id="erro" class="escondido">
+            <p id="mensagemErro"></p>
+        </div>
+    </div>
+    <div id="mensagemDesenvolvimento">
+        <p>Desenvolvido por João Vitor Nascimento da Luz.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
